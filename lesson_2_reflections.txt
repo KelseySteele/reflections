@@ -9,4 +9,43 @@ the repository? What value do you think it offers?
 The working directory is not yet within git, it is where you work on projects locally. The repository is a folder
 where you store files on the working directory and on git. The staging areas is where files get ready to be commited to git.
 I think these different areas are valuable because you can try different codes locally without overcrowding
-your git repository. 
+your git repository.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the staging area to run the dif command which will show you how many changes
+you have made in the file. You can delete the files in the staging area if no longer
+want to commit them.
+
+4. What are some situations when branches would be helpful in
+keeping your history organized? How would branches help?
+
+Branches would be helpful if you wanted to make a different verison of your file, while still
+keeping the main version the same. Branches could come in handy if you were experimenting with
+a new feature or creating the file in a different language. Branches are also helpful when working with
+other developers because they can be working on a new feature without having to worry
+about other thing changing from under them.
+
+5. How do the diagrams help you visualize the branch structure?
+
+Diagrams help you visualize the branch structure by showing you where changes were made
+and how the branch differs from the master branch. Visualizing the branch structure could
+help with combining different branches in the future or adding the new changes to the
+master branch.
+
+6. What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that the master branch contains
+changes from both the branches being changed. In the diagram, we represent the
+branches as off shoots of the master, so that we can track the commits that
+differ from the master.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+the pro of Git's automatic merging is that it will combine changes without you having to remember
+all the changes that are different between files. Even though the good thing about automatic merging is that it won't
+combine files unless the changes are extremly obvious, it might ask you to check changes that
+you find obvious. It could get a bit annoying. However merging files manually can be quite tedious
+because you have to remember all the changes you made to each branch, so automatic merging is a pretty
+nifty tool. 
