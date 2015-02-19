@@ -48,4 +48,3 @@ that did not have an error and you could find out where you made the error.
 I will use Git to save different versions of my projects. Git will help me keep track of the changes that I
 made without fearing that I will loose a working version.
 
-g
