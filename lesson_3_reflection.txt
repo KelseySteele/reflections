@@ -6,3 +6,6 @@
 
   You might want to pull changes manually because you might be working on a new feature or code locally, that you do not yet want to publish to the public or combine with another developer's code.
   
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+  Forks allow you to add/edit content on someone else's repository on GitHub without changing the person's actual repository. Forks also give the original contributor credit and link back to their repository. Clones allow you to copy a repository from GitHub and download it onto your local computer. Branches can be created locally and on GitHub. They allow you to add new features/code without necessarily having to change the master branch of code. All of these features allow you to collaborate more easily with other developers. 
